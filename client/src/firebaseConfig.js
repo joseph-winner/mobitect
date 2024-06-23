@@ -3,7 +3,7 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDvlLwsv7pON_hBeT8llZMDyolgaV0Lzmo",
+    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
     authDomain: "mobitect-a7ace.firebaseapp.com",
     projectId: "mobitect-a7ace",
     storageBucket: "mobitect-a7ace.appspot.com",
